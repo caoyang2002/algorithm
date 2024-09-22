@@ -31,8 +31,8 @@ def spell_check(word, dictionary):
     return suggestions[:10]
 
 # Example Usage
-dictionary = load_dictionary("words.txt")
-misspelled_word = "wrlod"
+dictionary = load_dictionary("text.txt")
+misspelled_word = "#1##2#345#"
 suggestions = spell_check(misspelled_word, dictionary)
 print(f"Top 10 suggestions for '{misspelled_word}':")
 for word, distance in suggestions:
